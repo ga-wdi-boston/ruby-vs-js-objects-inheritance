@@ -12,10 +12,7 @@ By the end of this, students should be able to:
 
 -   Diagram the Ruby method lookup chain, and compare it to the JavaScript
     prototype lookup chain.
--   Compare Ruby inheritance with Ruby composition.
--   Give two reasons why inheritance and composition are desirable.
 -   Write a class which inherits from another class.
--   Describe why composition is preferred to inheritance.
 
 ## Preparation
 
