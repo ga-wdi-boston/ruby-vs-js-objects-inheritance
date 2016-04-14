@@ -87,6 +87,35 @@ animal.eat #=> "Nom nom nom"
 animal.speak #=> NoMethodError
 ```
 
+## Ruby: Super Inheriterance
+
+```ruby
+class Animal
+  def move
+    "I can move"
+  end
+end
+
+class Bird < Animal
+  def move
+    super + " by flying"
+  end
+end
+
+puts Animal.new.move
+puts Bird.new.move
+```
+
+This will print out:
+
+```bash
+I can move
+I can move by flying
+```
+
+`Super` will call the same method defined in the `parent` or `superclass` and
+give you the result.
+
 ## Demo: Drawing the Method Lookup Chain in Ruby and JavaScript
 
 In Ruby, method lookup occurs through classes. In JavaScript, method lookup
@@ -106,6 +135,10 @@ Please diagram the method lookup chain using the following requirements:
     DenverBroncos.new`.
 -   Diagram how Ruby finds and executes the methods called on `broncos_2015`:
     `broncos_2015.lose` and `broncos_2015.play_game`.
+
+## Lab: Creating Your Own
+
+Using the requirements above inheritance to write the code in `lib/broncos.rb`
 
 ## Additional Resources
 
