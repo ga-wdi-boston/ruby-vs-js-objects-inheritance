@@ -106,7 +106,7 @@ Please diagram the method lookup chain using the following requirements:
     DenverBroncos.new`.
 -   Diagram how Ruby finds and executes the methods called on `broncos_2015`:
     `broncos_2015.lose` and `broncos_2015.play_game`.
-ß
+
 ## Additional Resources
 
 -   [Useful links to documentation](https://www.ruby-lang.org/en/documentation/)
