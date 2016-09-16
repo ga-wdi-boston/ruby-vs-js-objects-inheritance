@@ -48,12 +48,14 @@ PLATFORMS
 DEPENDENCIES
   byebug (~> 8.2)
   pry (~> 0.10)
-  pry-byebug (~> 3.3.0)
+  pry-byebug (~> 3.3)
   rake (~> 11.1)
   rb-readline (~> 0.5)
   rspec (~> 3.4)
   rubocop (~> 0.39)
-  rspec (~> 3.3)
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
